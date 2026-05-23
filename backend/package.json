@@ -1,6 +1,9 @@
 {
   "name": "collegescope-backend",
   "version": "1.0.0",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
   "description": "CollegeScope Backend API Server",
   "main": "dist/index.js",
   "scripts": {
